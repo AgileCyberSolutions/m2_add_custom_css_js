@@ -1,0 +1,44 @@
+.checkout-index-index .billing-address-details, .copyright{
+display:none;
+}
+.modal-popup.popup-authentication .block-authentication .block.block-new-customer {
+    display:none;   
+}
+.modal-popup.popup-authentication .block[class]+.block {
+    border:none;
+    padding: 10px 0 0 0px;
+}
+.modal-popup.popup-authentication .block[class]+.block:before {
+   display:none;
+}
+.modal-popup.popup-authentication .block-authentication {
+    border-top: none;
+}
+aside.modal-popup.popup-authentication .modal-inner-wrap {
+    min-width: 500px;
+    width: 500px;
+}
+.opc-payment.d-none{
+    display: none;
+}
+.action.multicheckout {
+    display: none;
+}
+.field-select-billing select.select option:last-child {
+    display: none !important;
+}
+.checkout-index-index .action.action-cancel, .customer-account-login .block.block-new-customer{
+    display: none !important;
+}
+ul.header.links li:nth-child(3) , .account.sales-order-view .box.box-order-billing-address{
+    display: none !important;
+}
+.account.customer-address-form .set.billing , .account.sales-order-print .box.box-order-billing-address{
+    display: none !important;
+}
+.category-image .image {
+    width: 100% !important;
+}
+.category-item.level-top.dropdown.home {
+    display:none !important;
+}
